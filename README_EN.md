@@ -51,17 +51,6 @@ Batch caching	MSET / MGET	fewer round-trips
 | Cache object | SET / GET / EXPIRE | user profile, config |
 | Batch caching | MSET / MGET | fewer round-trips |
 
-## 🧪 Try it online (Demo)
-
-Try the core conversion logic in your browser before installing:
-
-```bash
-npm run demo:build   # only needed after editing src
-# then open demo/demo.html
-```
-
-Paste AI table text in and see in real time: table detected? → generated Markdown → rendered preview.
-
 ## 📦 Installation
 
 ### Option 1: Obsidian Community directory (recommended)
@@ -79,13 +68,13 @@ Paste AI table text in and see in real time: table detected? → generated Markd
 
 ## 🚀 Usage
 
-> Tip: bind `Ctrl+Shift+V` to `Paste table: clipboard plain text` (Settings → Hotkeys) for an instant "copy → paste-as-table" workflow.
+> Tip: bind `Ctrl+Shift+V` to **Clipboard plain text** (Settings → Hotkeys) for an instant "copy → paste-as-table" workflow.
 
 | Command | Description |
 | --- | --- |
-| `Paste table: clipboard plain text` | Reads the clipboard, converts to a Markdown table if a table structure is detected |
-| `Convert selection: text to table` | Converts the selected Tab / space / Markdown text into a table |
-| `Paste table: clipboard HTML` | Converts clipboard HTML `<table>` data (fallback) |
+| **Clipboard plain text** | Reads the clipboard, converts to a Markdown table if a table structure is detected |
+| **Convert selection** | Converts the selected Tab / space / Markdown text into a table |
+| **Clipboard HTML** | Converts clipboard HTML `<table>` data (fallback) |
 
 **Workflow**
 
@@ -132,7 +121,6 @@ npm run lint       # lint
 - [x] Table-structure auto-detection
 - [x] Row number column (settings toggle)
 - [x] HTML `<table>` fallback conversion
-- [x] Online demo page
 - [ ] Cell-level find & replace
 - [ ] Column-position analysis (tricky space layouts)
 - [ ] Mobile support evaluation

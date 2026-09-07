@@ -3,7 +3,7 @@
   "name": "Paste Table",
   "version": "0.1.2",
   "minAppVersion": "1.13.0",
-  "description": "把 AI 对话（豆包/DeepSeek 等）复制的 Tab/空格纯文本一键转成标准 Markdown 表格，支持可选的数字排序列",
+  "description": "Convert plain-text tables (Tab/space-aligned) copied from AI or web content into standard Markdown tables, with an optional row-number column.",
   "author": "jyqqs",
   "authorUrl": "https://github.com/SpiderK-104",
   "isDesktopOnly": true

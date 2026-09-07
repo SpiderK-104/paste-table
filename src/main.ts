@@ -16,7 +16,7 @@ export default class PasteTablePlugin extends Plugin {
 		// ── 核心命令 1：读取剪贴板纯文本，检测到表格结构即转为 Markdown 表格 ──
 		this.addCommand({
 			id: 'paste-clipboard-table',
-			name: 'Paste table: clipboard plain text',
+			name: 'Clipboard plain text',
 			editorCallback: async (editor: Editor) => {
 				try {
 					const text = await navigator.clipboard.readText();
@@ -50,7 +50,7 @@ export default class PasteTablePlugin extends Plugin {
 		// ── 辅助命令 3：从剪贴板 HTML 粘贴（保底，覆盖有 HTML 的场景）──
 		this.addCommand({
 			id: 'paste-clipboard-html',
-			name: 'Paste table: clipboard HTML',
+			name: 'Clipboard HTML',
 			editorCallback: async (editor: Editor) => {
 				try {
 					const md = await clipboardHtmlToMarkdown(this.settings);
