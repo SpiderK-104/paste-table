@@ -12,6 +12,10 @@
 
 </div>
 
+## Preview
+
+![demo](preview.gif)
+
 ## The problem
 
 Writing a Markdown table by hand means remembering the boilerplate:
